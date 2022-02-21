@@ -1,10 +1,46 @@
+/* Header */
+
+
 @media(min-width: 770px) {
+  :root{
+    --fs-xl: 4rem;
+  }
+
   .about-info-box{
     display: flex;
     align-items: center;
     text-align: left;
     gap: 5rem;
   }
+}
+
+
+@media(min-width:900px){
+  .hero-box{
+    text-align: left;
+  }
+
+  :root{
+    --fs-xl:5rem;
+    --fs-l:4rem;
+  }
+  .secondary-heading{
+    margin-bottom: 5rem;
+  }
+
+  .hero-btn{
+    font-size: 2.5rem;
+  }
+  .d-con{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .about-info-box{
+    gap:10rem;
+  }
+
 }
 
 @media(min-width: 1000px){
