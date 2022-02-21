@@ -1,0 +1,17 @@
+@media(min-width: 770px) {
+  .about-info-box{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 5rem;
+  }
+}
+
+@media(min-width: 1000px){
+  .project-info-box{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+  }
+}
+

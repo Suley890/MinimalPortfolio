@@ -1,0 +1,127 @@
+/* Default */
+*,
+*::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+:root{
+  /* Colors */
+  --primary:#009CFF;
+  --secondary: #fff;
+  --hd-col: #212529;
+  --p-col: #495057;
+
+  /* Font sizes */
+  --fs-xl: 3.5rem;
+  --fs-l: 3rem;
+  --fs-m: 2.2rem;
+  --fs-s: 1.8rem;
+  /* --fs-xs:; */
+  --fs-btn: 1.8rem;
+
+  /* Margins */
+ }
+ 
+h1, h2, .project-heading{
+ font-family: "Poppins", sans-serif;
+}
+
+body {
+ font-family: "Nunito sans", sans-serif;
+}
+ 
+ /* Buttons */
+.btn-primary{
+  background-color: var(--secondary);
+  color: var(--primary);
+  box-shadow:inset 0px 0px 0px .25rem var(--primary);
+}
+
+.btn-primary::before{
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn-primary:hover,
+.btn-primary:focus{
+  color: var(--secondary);
+}
+
+.btn-secondary{
+  background-color: var(--primary);
+  color: var(--secondary);
+  box-shadow:inset 0px 0px 0px .25rem var(--secondary);
+}
+
+.btn-secondary::before{
+  background-color: var(--secondary);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus{
+  color: var(--primary);
+}
+
+.btn{
+  padding: .5em 1em;
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  display: inline;
+  font-size: var(--fs-btn);
+  font-weight: bold;
+  z-index: 1;
+  transition: color 300ms ease-in-out;
+}
+
+.btn::before{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+  transform-origin: left;
+}
+
+.btn:hover::before,
+.btn:focus::before{
+  transform: scaleX(1)
+}
+
+/* Heading */
+
+.secondary-heading{
+  font-size: var(--fs-l);
+  margin-bottom: 4rem;
+}
+
+.col-b{
+  color: var(--hd-col);
+}
+
+/* Container */
+
+.container{
+  padding: 5%;
+  display: grid;
+  place-content: center;
+}
+
+/* Image */
+
+.img{
+  max-width: 100%;
+  height: auto;
+}
