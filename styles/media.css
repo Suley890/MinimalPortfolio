@@ -12,6 +12,10 @@
     text-align: left;
     gap: 5rem;
   }
+
+  .about-img{
+    margin-bottom: 0;
+  }
 }
 
 
@@ -28,7 +32,7 @@
     margin-bottom: 5rem;
   }
 
-  .hero-btn{
+  .hero-btn:link, .hero-btn:active{
     font-size: 2.5rem;
   }
   .d-con{
@@ -46,8 +50,23 @@
 @media(min-width: 1000px){
   .project-info-box{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap:2rem;
+  }
+
+  .contact-form{
+    max-width: 60rem;
+    text-align: left;
+  
+  }
+  
+  .contact-name, .contact-email, .contact-msg{
+    width: 100%;
+    padding: .5em 1em;
+    background-color: var(--secondary);
+    border: none;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
   }
 }
 

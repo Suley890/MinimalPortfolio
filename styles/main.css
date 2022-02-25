@@ -27,12 +27,7 @@
 }
 
 .hero-name{
-  background: #00c6ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+ color: var(--primary);
 }
 
 /* About */
@@ -55,7 +50,7 @@
 }
 
 .about-text{
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .about-more-text{
@@ -76,7 +71,7 @@
 
 .project-info-box{
   text-align: left;
-  margin-bottom: 6rem;
+  margin-bottom: 8rem;
 }
 
 .project-text-box{
@@ -92,11 +87,11 @@
 }
 
 .project-text{
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .project-btn-box{
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
 /* Contact */
@@ -143,14 +138,26 @@
   font-size: 3.5rem;
 }
 
-.icon-up{
-  margin-bottom: 3rem;
-}
 .icon-box{
   display: flex;
   gap:2rem;
   justify-content: center;
   margin-bottom: 2rem;
+}
+
+.up-icon{
+  margin-bottom: 2rem;
+}
+
+.icon-link:link, .icon-link:visited{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+  display: inline-block;
+}
+
+.icon-link:hover, .icon-link:active{
+  transform: translateY(-10%); 
 }
 
 .footer-hr{
@@ -164,3 +171,5 @@
 .copy{
   font-size: var(--fs-s);
 }
+
+
