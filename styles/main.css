@@ -1,14 +1,3 @@
-/* TO DO
-- check typography & whitespace on youtube
-- change colors
-- Fix About section
-- Complete Project section
-- Complete Skills Section
-- Apply text gradient
-- Add Smooth scroll
-- Change Buttons to links
-*/
-
 /* Hero */
 
 .hero{
@@ -72,6 +61,7 @@
 .project-info-box{
   text-align: left;
   margin-bottom: 8rem;
+  max-width: 600px;
 }
 
 .project-text-box{
