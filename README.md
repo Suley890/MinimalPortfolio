@@ -1,6 +1,6 @@
 # MinimalPortfolio
 
-Portfolio website built with HTML and CSS
+Portfolio website built with HTML and CSS<br>
 Link (https://suleyman-portfolio.netlify.app/)
 
 ## Features
