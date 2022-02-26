@@ -13,5 +13,5 @@ Link (https://suleyman-portfolio.netlify.app/)
 ### Techniques used
 - CSS Flexbox for layout
 - CSS variables for theme
-- Media quieres to make site responsive
+- Media quieres to make page responsive
 - Netlify hosting to make form functional
